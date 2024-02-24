@@ -2,7 +2,6 @@ import tkinter as tk
 import threading
 import keyboard
 import time
-import time
 import pyautogui
 import cv2
 import numpy as np
