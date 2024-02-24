@@ -1,7 +1,7 @@
 nums = [2, 3, 1, 1, 4]
 n = len(nums)
 maxPos, end, step = 0, 0, 0
-for i in range(n - 1):
+for i in range(n - 1):#这个是循环n-1次从0开始，最后到n-2
     if maxPos >= i:
         maxPos = max(maxPos, i + nums[i])
         if i == end:
